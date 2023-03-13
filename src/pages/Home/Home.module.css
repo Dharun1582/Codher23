@@ -1,0 +1,115 @@
+
+
+
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    margin: 5%;
+  }
+  
+
+  .flexitemleft {
+    /* background-color: #f1f1f1; */
+    flex: 40%;
+    padding: 10px;
+    /* border: 2px solid black; */
+  }
+  
+  .content {
+    padding: 70px 10px;
+    /* position: absolute; */
+    /* width: 862px;
+    height: 301px; */
+    /* left: 198px;
+    top: 508px; */
+
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.035em;
+
+    color: #FFFFFF;
+  }
+
+  .flexitemright {
+    /* background-color: dodgerblue; */
+    /* padding: 40px; */
+    margin: auto;
+    flex: 40%;
+    /* border: 2px solid black; */
+    
+  }
+
+  img {
+    width: 30vw;
+    height: 45vh;
+    object-fit: contain;
+  }
+
+  @media (max-width: 800px) {
+    .flexitemright{
+        display: none;
+    }
+    .flexitemright, .flexitemleft {
+      flex: 100%;
+    }
+
+    img{
+        width: 70vw;
+        height: 60vw;
+    }
+  }
+
+
+  
+  .btn {
+    
+    /* font-size: large; */
+    color: #fff;
+    /* border-radius: 5px; */
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* position: relative; */
+    /* display: inline-block; */
+     /* box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1); */
+    outline: none;
+    font-size: 30px;
+    /* width: 130px; */
+    /* height: 40px; */
+    /* line-height: 42px; */
+    /* width: 40%; */
+    /* padding: 2vh 40%; */
+    border: none;
+    background: #7B04F2;
+    border-radius: 15px;
+    /* background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%); */
+  }
+  .btn:hover {
+    color: #7B04F2;
+    background: white;
+    box-shadow:none;
+  }
+
+  .darr{
+    width: 2vw;
+    height: 2vh;
+    display: inline;
+  }
+  .prev{
+    color: white;
+    /* border: 2px solid black; */
+    padding: 2px 5vw;
+  }
+  
+  .prev:hover{
+    cursor: pointer;
+    text-decoration:underline ;
+  }

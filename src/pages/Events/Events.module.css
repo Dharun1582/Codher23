@@ -1,0 +1,38 @@
+
+.mb{
+    width: 80%;
+    /* background-color: aliceblue; */
+    /* border: 2px solid black; */
+    margin: auto;
+    padding: 5vh 10vw;
+}
+
+.crd{
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.title{
+    /* position: absolute; */
+    /* width: 148px; */
+    /* height: 60px; */
+    /* left: 202px; */
+    /* top: 24px; */
+
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.035em;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
